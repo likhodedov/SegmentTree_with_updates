@@ -4,7 +4,7 @@ package com.company;
  * Created by d.lihodedov on 14.12.2016.
  */
 public class LazySegmentTree {
-    final int MAX = 1000;        // Max tree size
+    final int MAX = 100000000;        // Max tree size
     int tree[] = new int[MAX];  // To store segment tree
     int lazy[] = new int[MAX];  // To store pending updates
 
